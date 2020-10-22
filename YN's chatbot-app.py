@@ -35,14 +35,23 @@ While true:
         print("Now don't look so sad, lad. It's just a story.")
         print("But it just might happen to you.....")
         counter = 1
+      if each_word == "bored" and counter == 0:
+        print("Well," + name + ", what are you waiti'n for?Do something for the crew!")
+        print("Yes, the good stuff.....")
+        print("Huh? Oh yah, you're not like us.")
+        print("Uh..... fix the sails.")
+        print("Uh..... Man the rigging.....")
+        counter = 1
+      
       if counter == 0:
         print("What? I don't know what you are saying!")
         print("Oh nevermind. Your feelings can stay to yourself.")
         print("You can tell me them later.")
         counter = 1
+          
     while counter == 1:
     description = input("You look troubled, is that nasty shark biting your leg again?")
     list_of_words = description.split()
     for each_word in list_of_words:
       if each_word == "no" or "No" and counter == 1:
-        print("Oh?
+        print("Oh?")
