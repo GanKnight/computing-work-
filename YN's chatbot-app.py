@@ -43,6 +43,17 @@ While true:
         print("Uh..... Man the rigging.....")
         counter = 1
       
+        if each_word == "excited" and counter == 0:
+        print("Well," + name + ", what are you waiti'n for?Lets go hunt'in for treasure!")
+        print("Oh wait.....")
+        print("you're not like us.")
+        print("Uh.....are you goin then.")
+        
+        counter = 0
+      
+      
+      
+      
       if counter == 0:
         print("What? I don't know what you are saying!")
         print("Oh nevermind. Your feelings can stay to yourself.")
@@ -50,8 +61,8 @@ While true:
         counter = 1
           
     while counter == 1:
-    description = input("You look troubled, is that nasty shark biting your leg again?")
-    list_of_words = description.split()
-    for each_word in list_of_words:
+      description = input("You look troubled, is that nasty shark biting your leg again?")
+      list_of_words = description.split()
+      for each_word in list_of_words:
       if each_word == "no" or "No" and counter == 1:
         print("Oh?")
